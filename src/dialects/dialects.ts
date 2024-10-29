@@ -10,5 +10,8 @@ export const dialects: { [name in Dialect]: DialectOptions } = {
   mysql: mysqlOptions,
   mariadb: mysqlOptions,
   postgres: postgresOptions,
-  sqlite: sqliteOptions
+  sqlite: sqliteOptions,
+  db2: sqliteOptions, // TODO
+  oracle: sqliteOptions, // TODO
+  snowflake: sqliteOptions, // TODO
 };
