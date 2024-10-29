@@ -1,5 +1,9 @@
 # sequelize-auto change log
 
+## [0.8.8] - 2021-12-09
+
+* Fix reserved-words dependency introduced in 0.8.7 (#580, #581)
+
 ## [0.8.7] - 2021-12-08
 
 * Don't write field comments for mssql, because it throws error in sequelize.sync() (#567)
